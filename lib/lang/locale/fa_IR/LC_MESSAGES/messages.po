@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan5\n"
 "POT-Creation-Date: 2013-02-15 00:24+0330\n"
-"PO-Revision-Date: 2013-03-23 13:55+0330\n"
+"PO-Revision-Date: 2018-09-08 01:09+0330\n"
 "Last-Translator: \n"
 "Language-Team: Bushehriha <info@mansourzadeh.ir>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-KeywordsList: __;_gettext;gettext_noop\n"
 "X-Poedit-Basepath: D:\\psenayan\\apache\\htdocs\\slims3-stable15\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Language: Persian\n"
+"Language: fa\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: index.php:40
@@ -620,14 +620,6 @@ msgstr "آیا مایل به افزودن اطلاعات به مخزن چاپ ه
 #: lib/contents/default.inc.php:188
 msgid "Query took"
 msgstr ""
-
-#: admin/modules/bibliography/dl_print.php:292
-#: admin/modules/bibliography/index.php:703
-#: admin/modules/bibliography/item.php:479
-#: admin/modules/bibliography/item_barcode_generator.php:284
-#: lib/contents/default.inc.php:188
-msgid "second(s) to complete"
-msgstr "ثانیه تا پایان عملیات"
 
 #: admin/modules/bibliography/export.php:46
 #: admin/modules/bibliography/import.php:51
@@ -4997,7 +4989,7 @@ msgstr ""
 #: lib/biblio_list_model.inc.php:182 lib/biblio_list_model.inc.php:203
 #: lib/contents/show_detail.inc.php:58
 msgid "Record Detail"
-msgstr "جزئیات مدرک"
+msgstr "جزئیات کتاب"
 
 #: lib/biblio_list_model.inc.php:271
 msgid "mark this"
@@ -5005,7 +4997,7 @@ msgstr "انتخاب"
 
 #: lib/biblio_list_model.inc.php:294
 msgid "Put marked selection into basket"
-msgstr ""
+msgstr "اضافه کردن گزینه‌ی انتخاب شده به سبد"
 
 #: lib/detail.inc.php:172
 msgid "Click to view others documents with this author"
@@ -5111,7 +5103,7 @@ msgstr "لطفا برای ورود نام کاربری و گذرواژه را و
 
 #: lib/contents/member.inc.php:102
 msgid "Login FAILED! Wrong username or password!"
-msgstr "خطا. نام کاربری و یا گذرواژه اشتباه می باشد"
+msgstr "خطا! نام کاربری و یا گذرواژه اشتباه می باشد."
 
 #: lib/contents/member.inc.php:112
 msgid "Library Member Login"
@@ -5133,7 +5125,7 @@ msgstr ""
 
 #: lib/contents/member.inc.php:148 template/google/login_template.inc.php:54
 msgid "Password"
-msgstr "Password"
+msgstr "گذرواژه"
 
 #: lib/contents/member.inc.php:171
 msgid "Login"
@@ -5212,7 +5204,7 @@ msgstr "اطلاعات بیشتر کاربر"
 
 #: lib/contents/member.inc.php:595
 msgid "Your Title Basket"
-msgstr ""
+msgstr "سبد شما"
 
 #: lib/contents/show_detail.inc.php:60 template/blue/detail_template.php:85
 #: template/default/detail_template.php:95
@@ -5365,7 +5357,7 @@ msgstr "اطلاعاتی وجود ندارد"
 #: template/matoa/detail_template.php:80
 #: template/terrafirma/detail_template.php:80
 msgid "Availability"
-msgstr ""
+msgstr "دسترسی"
 
 #: template/blue/index_template.inc.php:36
 #: template/default/index_template.inc.php:51
@@ -5392,6 +5384,10 @@ msgstr "صفحه اصلی"
 #: template/lightweight/index_template.inc.php:21
 #: template/matoa/index_template.inc.php:58
 #: template/terrafirma/index_template.inc.php:41
+#: template/classic-dz/part/content/nav.php:34
+#: template/classic/part/content/nav.php:34
+#: template/default-dz/partials/nav.php:7 template/default/partials/nav.php:7
+#: template/lightweight/partials/nav.php:7
 msgid "Library Information"
 msgstr "درباره کتابخانه"
 
@@ -5491,3 +5487,153 @@ msgstr ""
 #: template/google/login_template.inc.php:50
 msgid "Username"
 msgstr "نام کاربری"
+
+#: template/classic-dz/part/content/simple-search.php:18
+#: template/classic/part/content/simple-search.php:18
+#: template/default-dz/index_template.inc.php:189
+#: template/default/index_template.inc.php:191
+#: template/lightweight/index_template.inc.php:187
+msgid "start it by typing one or more keywords for title, author or subject"
+msgstr "کلیدواژه‌هایی از عنوان، نویسنده یا موضوع را جستجو کنید"
+
+#: lib/contents/news.inc.php:25 template/default-dz/partials/nav.php:6
+#: template/default/partials/nav.php:6 template/lightweight/partials/nav.php:6
+msgid "Library News"
+msgstr "مقالات"
+
+#: lib/contents/peta.inc.php:28 template/default-dz/partials/nav.php:8
+#: template/default/partials/nav.php:8 template/lightweight/partials/nav.php:8
+msgid "Library Location"
+msgstr "مکان کتابخانه"
+
+#: admin/chat.php:15 lib/contents/chat.php:88 sysconfig.inc.php:626
+#: template/classic-dz/part/content/nav.php:42
+#: template/classic/part/content/nav.php:42
+#: template/default-dz/partials/nav.php:10
+#: template/default/partials/nav.php:10
+#: template/lightweight/partials/nav.php:10
+msgid "Librarian"
+msgstr "کتابدار"
+
+#: template/default-dz/partials/nav.php:13
+#: template/default/partials/nav.php:13
+#: template/lightweight/partials/nav.php:13
+msgid "About SLiMS"
+msgstr "SLiMS درباره‌ی"
+
+#: template/default-dz/index_template.inc.php:140
+#: template/default/index_template.inc.php:139
+#: template/lightweight/index_template.inc.php:138
+msgid "Information"
+msgstr "اطلاعات"
+
+#: template/default-dz/login_template.inc.php:84
+#: template/default/login_template.inc.php:84
+#: template/lightweight/login_template.inc.php:84
+msgid "Back To Home"
+msgstr "بازگشت به صفحه‌ی اصلی"
+
+#: template/default-dz/index_template.inc.php:131
+#: template/default/index_template.inc.php:130
+#: template/lightweight/index_template.inc.php:129
+msgid "Search Result"
+msgstr "نتایج جستجو"
+
+#: template/classic-dz/part/sidebar.php:23
+#: template/classic/part/sidebar.php:23
+#: template/default-dz/index_template.inc.php:150
+#: template/default/index_template.inc.php:149
+#: template/lightweight/index_template.inc.php:148
+msgid "Search Cluster"
+msgstr "خوشه‌ی جستجو"
+
+#: template/default-dz/index_template.inc.php:84
+#: template/default-dz/index_template.inc.php:90
+#: template/default/index_template.inc.php:82
+#: template/default/index_template.inc.php:88
+#: template/lightweight/index_template.inc.php:82
+#: template/lightweight/index_template.inc.php:88
+msgid "Collections"
+msgstr "مجموعه"
+
+#: template/classic-dz/detail_template.php:53
+#: template/classic-dz/detail_template.php:101
+#: template/classic/detail_template.php:53
+#: template/classic/detail_template.php:101
+#: template/default-dz/detail_template.php:43
+#: template/default/detail_template.php:43
+#: template/lightweight/detail_template.php:43
+msgid "Detail Information"
+msgstr "اطلاعات دقیق"
+
+#: template/classic-dz/detail_template.php:147
+#: template/classic/detail_template.php:147
+#: template/default-dz/detail_template.php:163
+#: template/default/detail_template.php:163
+#: template/lightweight/detail_template.php:163
+msgid "Other version/related"
+msgstr "نسخه/مرتبط ها"
+
+#: admin/modules/bibliography/index.php:569
+#: template/classic-dz/detail_template.php:135
+#: template/classic/detail_template.php:135
+#: template/default-dz/detail_template.php:150
+#: template/default/detail_template.php:150
+#: template/lightweight/detail_template.php:150
+msgid "Statement of Responsibility"
+msgstr "وضعیت پاسخگویی"
+
+#: admin/modules/master_file/submenu.php:29
+#: template/classic-dz/detail_template.php:110
+#: template/classic/detail_template.php:110
+#: template/default-dz/detail_template.php:115
+#: template/default/detail_template.php:115
+#: template/lightweight/detail_template.php:115
+msgid "Media Type"
+msgstr "نوع رسانه"
+
+#: admin/modules/master_file/submenu.php:28
+#: template/classic-dz/detail_template.php:105
+#: template/classic/detail_template.php:105
+#: template/default-dz/detail_template.php:101
+#: template/default/detail_template.php:101
+#: template/lightweight/detail_template.php:101
+msgid "Content Type"
+msgstr "نوع محتوا"
+
+#: admin/modules/master_file/submenu.php:30
+#: template/classic-dz/detail_template.php:115
+#: template/classic/detail_template.php:115
+#: template/default-dz/detail_template.php:122
+#: template/default/detail_template.php:122
+#: template/lightweight/detail_template.php:122
+msgid "Carrier Type"
+msgstr "نوع حامل"
+
+#: template/classic-dz/detail_template.php:155
+#: template/classic/detail_template.php:155
+#: template/default-dz/detail_template.php:164
+#: template/default/detail_template.php:164
+#: template/lightweight/detail_template.php:164
+msgid "No other version available"
+msgstr "نسحه‌های دیگر موجود نیست"
+
+#: template/classic-dz/detail_template.php:177
+#: template/classic/detail_template.php:177
+#: template/default-dz/detail_template.php:181
+#: template/default/detail_template.php:181
+#: template/lightweight/detail_template.php:181
+msgid "Comments"
+msgstr "نظر"
+
+#: lib/lang/localisation.php:75
+msgid "Persian"
+msgstr "فارسی"
+
+#: template/classic-dz/part/content/simple-search.php:13
+#: template/classic/part/content/simple-search.php:13
+#: template/default-dz/index_template.inc.php:186
+#: template/default/index_template.inc.php:188
+#: template/lightweight/index_template.inc.php:184
+msgid "SEARCH"
+msgstr "جستجو"
